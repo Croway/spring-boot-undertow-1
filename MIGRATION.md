@@ -28,12 +28,12 @@ migration first, including the move from `javax.servlet` to `jakarta.servlet`.
 
 ## Versions
 
-`1.0.0.Alpha1` is built against Java 17+, Spring Boot 4.1.2, and Undertow EE
+`1.0.0` is built against Java 17+, Spring Boot 4.1.2, and Undertow EE
 2.0.2.Final (Undertow core 2.4.3.Final). These are build baselines, not a
 compatibility guarantee for every Spring Boot 4.x release. Check the target release's
 [README](README.md), [changelog](CHANGELOG.md), and POM before upgrading.
 
-The starter has its own version line (`1.0.0.x`). It does not follow the Spring Boot or
+The starter has its own version line, starting at `1.0.0`. It does not follow the Spring Boot or
 Camel version.
 
 ## 1. From `spring-boot-starter-undertow` to `undertow-spring-boot-starter`
